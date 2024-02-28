@@ -7,7 +7,6 @@ from string import punctuation
 from bs4 import BeautifulSoup
 from collections import Counter
 from tqdm import tqdm
-from string import punctuation
 
 corpus = open(r'./corpus/VUAMC.xml', encoding = 'utf-8').read()
 Soup = BeautifulSoup(corpus, 'xml')
